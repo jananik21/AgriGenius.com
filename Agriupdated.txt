@@ -1,0 +1,129 @@
+
+<html>
+<head>
+  <title></title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    nav {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+    }
+    
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav ul li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+    
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      padding: 5px;
+    }
+    
+    main {
+      padding: 20px;
+    }
+    
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    
+    th {
+      background-color: #4CAF50;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Agriculture Website</h1>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="file:///C:/Users/JANANI/Desktop/java/Html%20-%20main/crops.html">Crops</a></li>
+      <li><a href="#">Seasonal Guidelines</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <main>
+    <h2>About Us</h2>
+    <p>Welcome to our agriculture website. We are committed to providing high-quality agricultural products and services.</p>
+    
+    <h2>Our Products</h2>
+    <ul>
+      <li>Seeds</li>
+      <li>Fertilizers</li>
+      <li>Pesticides</li>
+    </ul>
+    
+    <h2>Seasonal Guidelines</h2>
+    <p>Here are some seasonal guidelines for various crops:</p>
+    
+    <table>
+      <tr>
+        <th>Crop</th>
+        <th>Planting Season</th>
+        <th>Harvesting Season</th>
+      </tr>
+      <tr>
+        <td>Tomatoes</td>
+        <td>Spring</td>
+        <td>Summer/Fall</td>
+      </tr>
+      <tr>
+        <td>Corn</td>
+        <td>Spring</td>
+        <td>Summer</td>
+      </tr>
+      <tr>
+        <td>Carrots</td>
+        <td>Spring/Fall</td>
+        <td>Summer/Fall</td>
+      </tr>
+      <!-- Add more crops and their seasonal information as needed -->
+    </table>
+    
+    <h2>Our Services</h2>
+    <ul>
+      <li>Land preparation</li>
+      <li>Irrigation</li>
+      <li>Pest control</li>
+    </ul>
+    
+    <h2>Contact Us</h2
