@@ -2,8 +2,8 @@
 <html>
 <head>
     <title>Outline</title>
-    <style>
-        body {
+    <!--<style>
+       body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
@@ -22,11 +22,11 @@
         }
         
         .text {
-           position:absolute;
+          
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            color:black;
+        
             font-size: 24px;
         }
         
@@ -51,7 +51,29 @@
             color: #333;
         }
     </style>
-</head>
+</head>-->
+    <style>
+        .container {
+            position: relative;
+            text-align: center;
+        }
+        
+        .image {
+            display: block;
+            margin: 0 auto;
+        }
+        
+        .text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color:black;
+            font-size: 24px;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px white(0, 0, 0, 0.5);
+        }
+    </style>
 <body>
         <img class="image" src=".\images\barley-2117454_1920.jpg" alt="Image 1">
         <<div class="text" style color:black>
