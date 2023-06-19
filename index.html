@@ -66,13 +66,26 @@
       background-color: #4CAF50;
       color: white;
     }
+    
     #fullscreen-image {
-      position: fixed;
-      top: 0;
-      left: 0;
+      position: relative;
       width: 100%;
-      height: 100%;
-      object-fit: cover;
+      max-width: 100%;
+      height: auto;
+      border: 1px solid black;
+      border-radius: 5px;
+      box-shadow: 2px 2px 5px gray;
+    }
+    
+    .image-caption {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
   </style>
 </head>
@@ -91,20 +104,21 @@
     </ul>
   </nav>
   
-  <img src="./images/wheat.webp" alt="Image 1" style="width: 3000px; border: 1px solid black; border-radius: 5px; box-shadow: 2px 2px 5px gray;">
+  <div class="image-container">
+    <img id="fullscreen-image" src="./images/wheat.webp" alt="Image 1">
+    <div class="image-caption">
+      <h2>About Us</h2>
+      <p>Welcome to our agriculture website. We are committed to providing you with various information about the growing process of various crops, including their seasonal guidelines.</p>
+    
+      <h2>For more information</h2>
+      <ul>
+        <li>Click on the content for the growing process.</li>
+        <li>Click on seasonal guidelines to know about seasons for various crops.</li>
+        <li>To read the latest agriculture blogs, click on Blogs.</li>
+        <li>To know about FAQs, click on FAQ.</li>
+      </ul>
+    </div>
+  </div>
   
-  <main>
-    <h2>About Us</h2>
-    <p>Welcome to our agriculture website. We are committed to providing you with various information about the growing process of various crops, including their seasonal guidelines.</p>
-    
-    <h2>For more information</h2>
-    <ul>
-      <li>Click on the content for the growing process.</li>
-      <li>Click on seasonal guidelines to know about seasons for various crops.</li>
-      <li>To read the latest agriculture blogs, click on Blogs.</li>
-      <li>To know about FAQs, click on FAQ.</li>
-    </ul>
-    
-  </main>
 </body>
 </html>
